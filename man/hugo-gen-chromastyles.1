@@ -1,0 +1,78 @@
+.TH "HUGO\-GEN\-CHROMASTYLES" "1" "Nov 2017" "Hugo 0.30.2" "Hugo Manual"
+.nh
+.ad l
+
+
+.SH NAME
+.PP
+hugo\-gen\-chromastyles \- Generate CSS stylesheet for the Chroma code highlighter
+
+
+.SH SYNOPSIS
+.PP
+\fBhugo gen chromastyles [flags]\fP
+
+
+.SH DESCRIPTION
+.PP
+Generate CSS stylesheet for the Chroma code highlighter for a given style. This stylesheet is needed if pygmentsUseClasses is enabled in config.
+
+.PP
+See
+\[la]https://help.farbox.com/pygments.html\[ra] for preview of available styles
+
+
+.SH OPTIONS
+.PP
+\fB\-h\fP, \fB\-\-help\fP[=false]
+    help for chromastyles
+
+.PP
+\fB\-\-highlightStyle\fP="bg:#ffffcc"
+    style used for highlighting lines (see
+\[la]https://github.com/alecthomas/chroma\[ra])
+
+.PP
+\fB\-\-linesStyle\fP=""
+    style used for line numbers (see
+\[la]https://github.com/alecthomas/chroma\[ra])
+
+.PP
+\fB\-\-style\fP="friendly"
+    highlighter style (see
+\[la]https://help.farbox.com/pygments.html\[ra])
+
+
+.SH OPTIONS INHERITED FROM PARENT COMMANDS
+.PP
+\fB\-\-config\fP=""
+    config file (default is path/config.yaml|json|toml)
+
+.PP
+\fB\-\-debug\fP[=false]
+    debug output
+
+.PP
+\fB\-\-log\fP[=false]
+    enable Logging
+
+.PP
+\fB\-\-logFile\fP=""
+    log File path (if set, logging enabled automatically)
+
+.PP
+\fB\-\-quiet\fP[=false]
+    build in quiet mode
+
+.PP
+\fB\-v\fP, \fB\-\-verbose\fP[=false]
+    verbose output
+
+.PP
+\fB\-\-verboseLog\fP[=false]
+    verbose logging
+
+
+.SH SEE ALSO
+.PP
+\fBhugo\-gen(1)\fP

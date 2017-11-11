@@ -1,0 +1,61 @@
+.TH "HUGO\-UNDRAFT" "1" "Nov 2017" "Hugo 0.30.2" "Hugo Manual"
+.nh
+.ad l
+
+
+.SH NAME
+.PP
+hugo\-undraft \- Undraft resets the content's draft status
+
+
+.SH SYNOPSIS
+.PP
+\fBhugo undraft path/to/content [flags]\fP
+
+
+.SH DESCRIPTION
+.PP
+Undraft resets the content's draft status
+and updates the date to the current date and time.
+If the content's draft status is 'False', nothing is done.
+
+
+.SH OPTIONS
+.PP
+\fB\-h\fP, \fB\-\-help\fP[=false]
+    help for undraft
+
+
+.SH OPTIONS INHERITED FROM PARENT COMMANDS
+.PP
+\fB\-\-config\fP=""
+    config file (default is path/config.yaml|json|toml)
+
+.PP
+\fB\-\-debug\fP[=false]
+    debug output
+
+.PP
+\fB\-\-log\fP[=false]
+    enable Logging
+
+.PP
+\fB\-\-logFile\fP=""
+    log File path (if set, logging enabled automatically)
+
+.PP
+\fB\-\-quiet\fP[=false]
+    build in quiet mode
+
+.PP
+\fB\-v\fP, \fB\-\-verbose\fP[=false]
+    verbose output
+
+.PP
+\fB\-\-verboseLog\fP[=false]
+    verbose logging
+
+
+.SH SEE ALSO
+.PP
+\fBhugo(1)\fP
