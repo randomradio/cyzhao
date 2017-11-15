@@ -8,14 +8,14 @@ googleAnalytics = ""
 [params]
     author = "Chenyang Zhao"
     description = "A place of myself on the internet"
-    githubUsername = "#"
+    githubUsername = "IanZHao"
     accent = "red"
-    showBorder = true
+    showBorder = false 
     backgroundColor = "white"
     font = "Raleway" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "python", "javascript"]
 
 [[menu.main]]
     url = "/"
@@ -37,26 +37,21 @@ googleAnalytics = ""
 # The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
-    url = "mailto:me@example.com"
+    url = "mailto:chzhao8904@gmail.com"
     name = "envelope-o"
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/username/"
+    url = "https://github.com/IanZhao/"
     name = "github"
     weight = 2
 
 [[menu.icon]]
-    url = "https://twitter.com/username/"
-    name = "twitter"
-    weight = 3
-
-[[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
+    url = "https://www.linkedin.com/in/ianchenyangzhao/"
     name = "linkedin"
     weight = 4
 
 [[menu.icon]]
-    url = "https://www.stackoverflow.com/username/"
+    url = "https://www.stackoverflow.com/users/1610143/ian-zhao/"
     name = "stack-overflow"
     weight = 5
