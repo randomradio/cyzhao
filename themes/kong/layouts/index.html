@@ -1,6 +1,15 @@
+{{ partial "header" . }}
 
-{{ define "main" }}
-    <section id="home" class="container">
-        Hello
-    </section>
-{{ end }}
+<main>
+
+    <div class="intro">
+
+        <h1>{{ .Site.Title }}</h1>
+
+        <h2>{{ markdownify .Site.Params.Description }}</h2>
+
+    </div>
+
+</main>
+
+{{ partial "footer" . }}
