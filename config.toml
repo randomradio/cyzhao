@@ -13,45 +13,41 @@ googleAnalytics = ""
     showBorder = false 
     backgroundColor = "white"
     font = "Raleway" # should match the name on Google Fonts!
-    highlight = true
+    highlight = false
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "python", "javascript"]
+    js = ['main.js']
 
 [[menu.main]]
     url = "/"
     name = "Home"
     weight = 1
 
-# [[menu.main]]
-#     url = "/post/"
-#     name = "Posts"
-#     weight = 2
-
-# [[menu.main]]
-#     url = "/project/"
-#     name = "Projects"
-#     weight = 3
-
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 2
+    
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
 # The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
     url = "mailto:chzhao8904@gmail.com"
-    name = "envelope-o"
+    name = "Email"
     weight = 1
 
 [[menu.icon]]
     url = "https://github.com/IanZhao/"
-    name = "github"
+    name = "Github"
     weight = 2
 
 [[menu.icon]]
     url = "https://www.linkedin.com/in/ianchenyangzhao/"
-    name = "linkedin"
+    name = "Linkedin"
     weight = 4
 
 [[menu.icon]]
     url = "https://www.stackoverflow.com/users/1610143/ian-zhao/"
-    name = "stack-overflow"
+    name = "Stackoverflow"
     weight = 5
