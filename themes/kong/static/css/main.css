@@ -111,6 +111,30 @@ a:hover {
     border-top: var(--border-width) solid var(--accent);
 }
 
+/* reading list style */
+.reading-list {
+    position: fixed;
+    top: 6em;
+    left: 0em;
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+}
+.reading-list title {
+    display: block;
+    margin: 6px 14px;
+    padding: 7px 0px;
+    max-width: 12em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.reading-list title:hover {
+    max-width: 100%;
+    overflow: visible;
+    white-space: normal;
+}
+
 footer {
     border-bottom: var(--border-width) solid var(--accent);
 }

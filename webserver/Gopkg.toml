@@ -32,3 +32,11 @@
 [[constraint]]
   name = "gopkg.in/src-d/go-git.v4"
   version = "4.2.0"
+
+[[constraint]]
+  name = "github.com/PuerkitoBio/goquery"
+  version = "1.4.0"
+
+[[constraint]]
+  name = "github.com/jinzhu/gorm"
+  version = "1.9.1"
