@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-25T15:46:41.264Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="0V1RBrX_6n1W40eV_91u" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-25T15:47:32.790Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="hMtMggtoA2_Xd88LNNHP" version="13.6.5" type="github">
   <diagram id="-2cew75BLRgV-3fIqFXV" name="Page-1">
-    <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2013" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,6 +21,18 @@
         </mxCell>
         <mxCell id="dxrtK1tRXE7fo_u7qs69-6" value="Send limit/stop loss sell order" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="100" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dxrtK1tRXE7fo_u7qs69-7" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="dxrtK1tRXE7fo_u7qs69-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="124.5" as="sourcePoint" />
+            <mxPoint x="-20" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dxrtK1tRXE7fo_u7qs69-8" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="dxrtK1tRXE7fo_u7qs69-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-20" y="265" as="sourcePoint" />
+            <mxPoint x="50" y="280" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
